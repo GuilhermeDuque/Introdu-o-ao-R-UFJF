@@ -34,7 +34,7 @@ library(tidyr)
 #'Em síntese, temos duas formas de importar um arquivo.
 #'A primeira e mais simples é usar a função "Import Dataset", localizada no Enviroment.
 #'Nessa função, podemos selecionar diretamente o arquivo que estamos buscando e ajustá-lo para 
-#'importar da maneira correta. 
+#'importar da maneira correta. Neste caso, iremos trabalhar com a base filtrada do mape_municipios.
 
 municipios <- read_excel("municipios.xlsx")
 
@@ -363,5 +363,6 @@ ggsave("pop_pib_scatter.png", plot = p, width = 6, height = 4)
 #    colunas relevantes para sua análise.
 
 #Faça alguns gráficos simples 
+
 
 
